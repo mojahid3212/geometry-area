@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="bg-blue-100 flex justify-between w-11/12 mx-auto px-4 py-1 items-center mb-6">
+        <div>
+            <h3 class="text-2xl font-semibold">Interactive</h3>
+            <h4 class="text-medium text-gray-600">Geometry Genius</h4>
+        </div>
+        <div>
+            <button class="bg-blue-500 text-xl text-white px-4 py-1 rounded font-semibold">Blog</button>
+        </div>
+
+    </header>
+
+    <main class="w-11/12 mx-auto">
+        
+        <section class="flex mb-6">
+            <div  class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8">
+                <!-- triange card -->
+                <div class="cards shadow-lg border  rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2  mx-auto " src="images/triangle.png" alt="">
+                    </div>
+
+                    <div class="text-center ">
+                        <h3 class="text-xl font-semibold">triangle</h3>
+                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id="triangle-base" class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text" name="" id="triangle-height" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="tigngle-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>
+                <!-- rectangle area -->
+                <div class="cards shadow-lg border   rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2 mx-auto " src="images/rectangle.png" alt="">
+                    </div>
+
+                    <div class="text-center ">
+                        <h3 class="text-xl font-semibold">Rectangle</h3>
+                        <p class="my-2">Area(A)= <span>w</span>×<span>l</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="w" type="text" name="" id=""
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="l" type="text"
+                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>
+                <div class="cards shadow-lg border  rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2 mx-auto " src="images/parallelogram.png" alt="">
+                    </div>
+
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold">Parallelogram</h3>
+                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
+                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>
+                <div class="cards shadow-lg border rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2 mx-auto " src="images/rhombus.png" alt="">
+                    </div>
+
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold">Rhombus</h3>
+                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
+                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>
+                <div class="cards shadow-lg border   rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2 mx-auto " src="images/pentagon.png" alt="">
+                    </div>
+
+                    <div class="text-center ">
+                        <h3 class="text-xl font-semibold">Pentagon</h3>
+                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
+                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>
+                <div class="cards shadow-lg border rounded py-8">
+                    <div class="h-1/2">
+                        <img class="w-1/2 mx-auto " src="images/ellipse.png" alt="">
+                    </div>
+
+                    <div class="text-center ">
+                        <h3 class="text-xl font-semibold">Ellipse</h3>
+                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
+                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                    </div>
+
+                </div>   
+                
+               
+
+            </div>
+            <!-- //////// calculated result display section////////// -->
+            <div class=" h-min ms-8 w-[450px] px-2 py-4 bg-green-100">
+                 <div>Area Calculation</div>
+                 <hr>
+                 <div id="calculation-entry">
+                  
+                 </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/calculate.js"></script>
+</body>
+
+</html>
