@@ -10,13 +10,13 @@
 
 <body>
     <!-- header section -->
-    <header class="bg-blue-100 flex justify-between w-11/12 mx-auto px-4 py-1 items-center mb-6">
-        <div>
+    <header class="bg-blue-100 flex justify-between w-11/12 mx-auto px-4 py-2 items-center mb-6">
+        <div >
             <h3 class="text-2xl font-semibold">Interactive</h3>
             <h4 class="text-medium text-gray-600">Geometry Genius</h4>
         </div>
         <div>
-            <button class="bg-blue-500 text-xl text-white px-4 py-1 rounded font-semibold">Blog</button>
+            <button id="blog-btn" class="bg-blue-500 text-xl text-white px-4 py-1 rounded font-semibold">Blog</button>
         </div>
 
     </header>
@@ -35,7 +35,7 @@
                         <h3 class="text-xl font-semibold">triangle</h3>
                         <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
                         <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id="triangle-base" class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text" name="" id="triangle-height" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button id="tigngle-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                        <button id="trigngle-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>
@@ -48,13 +48,14 @@
                     <div class="text-center ">
                         <h3 class="text-xl font-semibold">Rectangle</h3>
                         <p class="my-2">Area(A)= <span>w</span>×<span>l</span></p>
-                        <p class="font-semibold flex justify-center "> <input placeholder="w" type="text" name="" id=""
+                        <p class="font-semibold flex justify-center "> <input placeholder="w" type="text" name="" id="rectangle-width"
                                 class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="l" type="text"
-                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                                name="" id="rectangle-length" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="rectangle-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>
+                <!-- parallelogram cards -->
                 <div class="cards shadow-lg border  rounded py-8">
                     <div class="h-1/2">
                         <img class="w-1/2 mx-auto " src="images/parallelogram.png" alt="">
@@ -62,14 +63,15 @@
 
                     <div class="text-center">
                         <h3 class="text-xl font-semibold">Parallelogram</h3>
-                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
-                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
+                        <p class="my-2">Area(A)=<span>B</span>×<span>H</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id="parallelogram-base"
                                 class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
-                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                                name="" id="parallelogram-height" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="parallelogram-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>
+                <!-- rhombus cards -->
                 <div class="cards shadow-lg border rounded py-8">
                     <div class="h-1/2">
                         <img class="w-1/2 mx-auto " src="images/rhombus.png" alt="">
@@ -77,14 +79,15 @@
 
                     <div class="text-center">
                         <h3 class="text-xl font-semibold">Rhombus</h3>
-                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
-                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
-                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
-                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                        <p class="my-2">Area(A)= 0.5×<span>d1</span>×<span>d2</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="d1" type="text" name="" id="d1"
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="d2" type="text"
+                                name="" id="d2" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="rhombus-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>
+                <!-- pentagon cards -->
                 <div class="cards shadow-lg border   rounded py-8">
                     <div class="h-1/2">
                         <img class="w-1/2 mx-auto " src="images/pentagon.png" alt="">
@@ -92,14 +95,15 @@
 
                     <div class="text-center ">
                         <h3 class="text-xl font-semibold">Pentagon</h3>
-                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
-                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
-                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
-                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                        <p class="my-2">Area(A)= 0.5×<span>p</span>×<span>b</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="p" type="text" name="" id="pentagon-perameter"
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="b" type="text"
+                                name="" id="pentagon-base" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="pentagon-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>
+                <!-- ellipse cards -->
                 <div class="cards shadow-lg border rounded py-8">
                     <div class="h-1/2">
                         <img class="w-1/2 mx-auto " src="images/ellipse.png" alt="">
@@ -107,11 +111,11 @@
 
                     <div class="text-center ">
                         <h3 class="text-xl font-semibold">Ellipse</h3>
-                        <p class="my-2">Area(A)= 0.5×<span>B</span>×<span>H</span></p>
-                        <p class="font-semibold flex justify-center "> <input placeholder="B" type="text" name="" id=""
-                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="H" type="text"
-                                name="" id="" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
-                        <button class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
+                        <p class="my-2">Area(A)= π ×<span>a</span>×<span>b</span></p>
+                        <p class="font-semibold flex justify-center "> <input placeholder="a" type="text" name="" id="ellipse-a-axis"
+                                class="w-3/12  me-2 px-2 bg-slate-200 rounded"> cm <input placeholder="b" type="text"
+                                name="" id="ellipse-b-axis" class="w-3/12 ms-4 me-2 px-2 bg-slate-200 rounded">cm </p>
+                        <button id="ellipse-btn" class="bg-blue-600 text-white px-16 py-1 mt-4 rounded">CAlCULATE</button>
                     </div>
 
                 </div>   
